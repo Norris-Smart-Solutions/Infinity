@@ -13,9 +13,15 @@ video.addEventListener('ended',(event)=>{
    
 })
 
+video.addEventListener('click', () =>{
+    setTimeout(RemoveLoop,0); 
+    document.getElementById('opening').className = "displayNone"
+    
+})
+
 function RemoveLoop() {
 
     document.getElementById('opening').removeAttribute("loop")
 }
 
-setTimeout(RemoveLoop,35000); 
+setTimeout(RemoveLoop,10000); 
