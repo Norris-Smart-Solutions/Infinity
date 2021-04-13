@@ -1,0 +1,51 @@
+.button-index {
+
+    opacity: 80% !important;
+    background-color:rgba(210, 172, 23, 0.4) !important;
+    
+}
+
+.question {
+    font-size:5rem  !important;
+    font-family: "Leelawed", serif;
+}
+
+.partenaires {
+
+    margin-right: 5%;
+    width:15%;
+}
+.influenceurs{
+
+    margin-left: 5%;
+    width:15%;
+}
+.button-index:hover {
+
+    background: linear-gradient(90deg, rgba(210, 172, 23, 0.4) 38%, rgba(242,180,65,1) 86%);
+}
+
+.buttonChoiceNone {
+
+    display:none;
+}
+
+.buttonChoiceBlock {
+
+    display:block;
+}
+
+.displayNone {
+
+    display:none;
+}
+
+.picture {
+
+    width:20%
+}
+
+@font-face {
+    font-family: Leelawed;
+    src: url(/assets/fonts/leelawad.ttf);
+}
