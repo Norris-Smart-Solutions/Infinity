@@ -1,0 +1,42 @@
+.agency {
+
+  margin-top: 2%;
+}
+
+.e-Reputation {
+
+  opacity: 70%;
+  
+  
+}
+
+.opacity90 {
+
+  opacity:90%;
+}
+
+.opacity80 {
+
+  opacity:80%;
+}
+
+.opacity70 {
+  opacity:70%;
+
+}
+
+.contact-button {
+  background-color:#F2B441;
+
+}
+
+h1, h2, h3 {
+
+  font-family: "leelawad";
+}
+
+@font-face {
+
+  font-family: "leelawad";
+  src:url("assets/leelawadee/leelawad.ttf") format("ttf");
+}
