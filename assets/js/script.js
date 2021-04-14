@@ -1,21 +1,28 @@
 const video = document.querySelector('video');
 
 
+function RemoveLoop() {
 
+    document.getElementById('opening').removeAttribute("loop");
+}
 
-video.addEventListener('ended',(event)=>{
+video.addEventListener('click', ()  => {
     
+    document.getElementById('opening').removeAttribute("loop");
+    document.getElementById('opening').className = "displayNone"
+    document.getElementById('buttonChoice').className = "buttonChoiceBlock"
+    
+})
+
+
+video.addEventListener('ended', () => {
+   
+    document.getElementById('opening').className = "displayNone"
     document.getElementById('buttonChoice').className = "buttonChoiceBlock"
     
     
-    document.getElementById('opening').className = "displayNone"
-    
-   
 })
 
-function RemoveLoop() {
 
-    document.getElementById('opening').removeAttribute("loop")
-}
 
-setTimeout(RemoveLoop,35000); 
+
